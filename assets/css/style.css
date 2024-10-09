@@ -36,6 +36,35 @@ h2{
     background-position:50% 70%;
     min-height: 500px;
     padding: 5% 7%;
-   
+
+}
+
+#portfolio .card-text{
+    min-height:120px;
     
 }
+
+#portfolio .card-title{
+    color:#1f7798;
+    font-size: 1.2rem;
+
+}
+
+#portfolio .btn:hover{
+ background-color: #1f7798;
+}
+
+
+@media screen and (min-width:1200px){
+    #portfolio .card-text{
+        min-height:auto;
+    }
+}
+
+.sharp-corners,
+.sharp-corners *{
+    border-radius: 0%;
+}
+    
+
+
